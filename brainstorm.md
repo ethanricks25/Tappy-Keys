@@ -1,0 +1,27 @@
+### Ethan
+- Reimagined Bible App that provides context to scripture (This app idea made the top two)
+    - Mobile
+        - This app would have smooth UI features that would make it very easy for the user to navigate. The contents of the app would make use of all the space on a mobile device, rather than the wide swathes of empty space you would see if you opened the bible app on the web.
+        - Some features that I would try for is audio(for reading scriptures), and a location based feature where you could share scriptures with other people in your vicinity.
+    - Story
+        - The value of the app is very clear to the audience. Most people read the bible without having any guide or context to the scripture. Upon the completion of the app, users would know background details about the scripture that would make the application that much easier to do. My friends and peer would respond very well to this product idea, as most people find the separation between scripture and historical context tedious to deal with.
+    - Market 
+        - The market for this app is very large. There are almost 2.38 billion christians in the world. If a significant number of people find the information provided within the app to be helpful, there's a large potential for the app to spread. 
+    - Habit
+        - The user would probably be expected to open this app once a day. It all depends on how often they use their phone to study scripture. The average user would just consume the app and not create. However, their could be a potential feature where users are able to share notes, bookmarks, and other things of that nature.
+    - Scope
+        - This app would not be extremely technically challenging to create. The biggest problem would be formatting the text so that it would be appealing to the user. What may also cause problems would be organizing the API calls so that the scripture and background information all appears in the right place. A stripped down version of this app would still be interesting to build, and the product is well-defined. 
+- Public Safety App - App that provides real time safety updates within a certain location
+- General Education Assistant App - gives the user resources for help on common General Education courses
+- **Typing Test App** (Entertainment) (This app idea made the top two) (This was the app that won!)
+    - Mobile
+        - There are no major apps that I know of that have a mobile typing test. The UI would be move smoother than it would on the web and it would be more compact.
+        - The two features that I would like to aim for would be sound fx that reward the user for good/bad gameplay, and leaderboard services where users can compare their scores.
+    - Story
+        - The value of the app would be very clear to the audience. For any person who is bored and isn't spending much time doing anything, they could use this app to entertain themselves. This app provides value to a large group of people, because people like to play games that don't take much thought. My peers would respond well to this app idea, because the one thing college students seem to be good at is getting distracted from their work. This app would help them accomplish that task much more easily. 
+    - Market
+        - The size and scale of my potential user base is massive. Anyone across the world would be able to play this game, except maybe some physically disable people. The game can be played by people both young and old, and across every demographic. It doesn't provide value to a niche group of people, but it's appeal to the general population is what makes its scope so large.
+    - Habit 
+        - This app would be very addictive. It's expected that this user would open and close this app multiple times throughout the day. The average consumer would just consume the app.
+    - Scope
+        - This app will be difficult to create. One of the features that concerns me the most is how to create the scrolling feature that will allow gameplay for the feature. Even without all the extra features, a stripped-down version of this app would still be interesting to build. The product that I want to build is very clearly defined.
