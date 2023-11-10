@@ -78,6 +78,9 @@ This app is a game where people can play a typing speed game... but on their pho
 * => Leaderboard Screen can have tab display
 * => One tab can display previous scores. From there it can display the stats for the specific game
 * => The other tab can display scores from other Users. From there it can display their stats for the game
+- Profile
+* => First screen displays profile (Profile Display Screen)
+* => From Profile Display Screen to Edit Profile Display Screen
 
 ## Wireframes
 
