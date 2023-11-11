@@ -85,7 +85,7 @@ This app is a game where people can play a typing speed game... but on their pho
 ## Wireframes
 
 [Add picture of your hand sketched wireframes in this section]
-<img src="https://photos.google.com/photo/AF1QipMEVIe5WkZxFXjQ6-8tKYpGeCw9gkyH-iUHWYkO" width=600>
+![]https://photos.google.com/photo/AF1QipMEVIe5WkZxFXjQ6-8tKYpGeCw9gkyH-iUHWYkO
 
 ### [BONUS] Digital Wireframes & Mockups
 
