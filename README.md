@@ -103,3 +103,11 @@ This app is a game where people can play a typing speed game... but on their pho
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
+
+### Progress
+Week 1
+- Added Necessary View Controllers for each screen
+- Added Tab Bar controller
+- Addded Navigation controller for every tab
+
+The main challenge that I faced this week and will face in the coming weeks is time management. In order to get an app like this off the ground, I will need to put in a good amount of effort every day. However, I now have a basic plan in place that will be simple to follow. What's next is creating the keyboard and developing the Gameplay
