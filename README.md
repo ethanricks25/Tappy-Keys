@@ -85,7 +85,7 @@ This app is a game where people can play a typing speed game... but on their pho
 ## Wireframes
 
 [Add picture of your hand sketched wireframes in this section]
-![]https://github.com/ethanricks25/Tappy-Keys/IMG_4282.jpg
+<img src=![Alt text](image.png)>
 
 ### [BONUS] Digital Wireframes & Mockups
 
