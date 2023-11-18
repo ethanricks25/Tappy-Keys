@@ -7,23 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D288CE2A2B02ED7F00FE56E8 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D288CE292B02ED7F00FE56E8 /* PlayViewController.swift */; };
 		D295CD952AFF2A2E0002AEDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D295CD942AFF2A2E0002AEDF /* AppDelegate.swift */; };
 		D295CD972AFF2A2E0002AEDF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D295CD962AFF2A2E0002AEDF /* SceneDelegate.swift */; };
-		D295CD992AFF2A2E0002AEDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D295CD982AFF2A2E0002AEDF /* ViewController.swift */; };
 		D295CD9C2AFF2A2E0002AEDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D295CD9A2AFF2A2E0002AEDF /* Main.storyboard */; };
 		D295CD9E2AFF2A300002AEDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D295CD9D2AFF2A300002AEDF /* Assets.xcassets */; };
 		D295CDA12AFF2A300002AEDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D295CD9F2AFF2A300002AEDF /* LaunchScreen.storyboard */; };
+		D2B78F742B06A9E400CC5E30 /* ParagraphGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B78F732B06A9E400CC5E30 /* ParagraphGenerator.swift */; };
+		D2B78F762B06B96C00CC5E30 /* LetterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B78F752B06B96C00CC5E30 /* LetterCell.swift */; };
+		D2B78F7A2B0861D700CC5E30 /* keyboard_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D2B78F792B0861D700CC5E30 /* keyboard_sound.mp3 */; };
+		D2B78F7C2B089A0F00CC5E30 /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B78F7B2B089A0F00CC5E30 /* GameOverViewController.swift */; };
+		D2D482CE2B04711E000DDAB7 /* GameDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D482CD2B04711E000DDAB7 /* GameDetailViewController.swift */; };
+		D2D482D02B048875000DDAB7 /* GameplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D482CF2B048875000DDAB7 /* GameplayViewController.swift */; };
+		D2D482D22B048F14000DDAB7 /* KeyboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D482D12B048F14000DDAB7 /* KeyboardController.swift */; };
+		D2D482D42B048F90000DDAB7 /* WordsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D482D32B048F90000DDAB7 /* WordsController.swift */; };
+		D2D482D62B04905E000DDAB7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D482D52B04905E000DDAB7 /* Constants.swift */; };
+		D2D482D82B049378000DDAB7 /* KeyboardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D482D72B049378000DDAB7 /* KeyboardCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D288CE292B02ED7F00FE56E8 /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
 		D295CD912AFF2A2E0002AEDF /* Tappy-Keys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tappy-Keys.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D295CD942AFF2A2E0002AEDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D295CD962AFF2A2E0002AEDF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D295CD982AFF2A2E0002AEDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D295CD9B2AFF2A2E0002AEDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D295CD9D2AFF2A300002AEDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D295CDA02AFF2A300002AEDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D295CDA22AFF2A300002AEDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2B78F732B06A9E400CC5E30 /* ParagraphGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParagraphGenerator.swift; sourceTree = "<group>"; };
+		D2B78F752B06B96C00CC5E30 /* LetterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterCell.swift; sourceTree = "<group>"; };
+		D2B78F792B0861D700CC5E30 /* keyboard_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = keyboard_sound.mp3; sourceTree = "<group>"; };
+		D2B78F7B2B089A0F00CC5E30 /* GameOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
+		D2D482CD2B04711E000DDAB7 /* GameDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailViewController.swift; sourceTree = "<group>"; };
+		D2D482CF2B048875000DDAB7 /* GameplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameplayViewController.swift; sourceTree = "<group>"; };
+		D2D482D12B048F14000DDAB7 /* KeyboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardController.swift; sourceTree = "<group>"; };
+		D2D482D32B048F90000DDAB7 /* WordsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsController.swift; sourceTree = "<group>"; };
+		D2D482D52B04905E000DDAB7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D2D482D72B049378000DDAB7 /* KeyboardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +76,20 @@
 		D295CD932AFF2A2E0002AEDF /* Tappy-Keys */ = {
 			isa = PBXGroup;
 			children = (
+				D2B78F792B0861D700CC5E30 /* keyboard_sound.mp3 */,
+				D2D482D52B04905E000DDAB7 /* Constants.swift */,
 				D295CD942AFF2A2E0002AEDF /* AppDelegate.swift */,
 				D295CD962AFF2A2E0002AEDF /* SceneDelegate.swift */,
-				D295CD982AFF2A2E0002AEDF /* ViewController.swift */,
 				D295CD9A2AFF2A2E0002AEDF /* Main.storyboard */,
+				D2B78F7B2B089A0F00CC5E30 /* GameOverViewController.swift */,
+				D2B78F752B06B96C00CC5E30 /* LetterCell.swift */,
+				D2D482D32B048F90000DDAB7 /* WordsController.swift */,
+				D2B78F732B06A9E400CC5E30 /* ParagraphGenerator.swift */,
+				D2D482D72B049378000DDAB7 /* KeyboardCell.swift */,
+				D2D482D12B048F14000DDAB7 /* KeyboardController.swift */,
+				D2D482CF2B048875000DDAB7 /* GameplayViewController.swift */,
+				D2D482CD2B04711E000DDAB7 /* GameDetailViewController.swift */,
+				D288CE292B02ED7F00FE56E8 /* PlayViewController.swift */,
 				D295CD9D2AFF2A300002AEDF /* Assets.xcassets */,
 				D295CD9F2AFF2A300002AEDF /* LaunchScreen.storyboard */,
 				D295CDA22AFF2A300002AEDF /* Info.plist */,
@@ -126,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D295CDA12AFF2A300002AEDF /* LaunchScreen.storyboard in Resources */,
+				D2B78F7A2B0861D700CC5E30 /* keyboard_sound.mp3 in Resources */,
 				D295CD9E2AFF2A300002AEDF /* Assets.xcassets in Resources */,
 				D295CD9C2AFF2A2E0002AEDF /* Main.storyboard in Resources */,
 			);
@@ -138,9 +169,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D295CD992AFF2A2E0002AEDF /* ViewController.swift in Sources */,
+				D288CE2A2B02ED7F00FE56E8 /* PlayViewController.swift in Sources */,
+				D2D482CE2B04711E000DDAB7 /* GameDetailViewController.swift in Sources */,
+				D2B78F742B06A9E400CC5E30 /* ParagraphGenerator.swift in Sources */,
+				D2D482D82B049378000DDAB7 /* KeyboardCell.swift in Sources */,
+				D2D482D02B048875000DDAB7 /* GameplayViewController.swift in Sources */,
+				D2D482D42B048F90000DDAB7 /* WordsController.swift in Sources */,
+				D2B78F762B06B96C00CC5E30 /* LetterCell.swift in Sources */,
 				D295CD952AFF2A2E0002AEDF /* AppDelegate.swift in Sources */,
+				D2B78F7C2B089A0F00CC5E30 /* GameOverViewController.swift in Sources */,
 				D295CD972AFF2A2E0002AEDF /* SceneDelegate.swift in Sources */,
+				D2D482D22B048F14000DDAB7 /* KeyboardController.swift in Sources */,
+				D2D482D62B04905E000DDAB7 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
