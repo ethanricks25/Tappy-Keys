@@ -111,3 +111,14 @@ Week 1
 - Addded Navigation controller for every tab
 
 The main challenge that I faced this week and will face in the coming weeks is time management. In order to get an app like this off the ground, I will need to put in a good amount of effort every day. However, I now have a basic plan in place that will be simple to follow. What's next is creating the keyboard and developing the Gameplay
+
+Week 2
+- Made Default Screen Where Users can select different length games.
+- Each button for each game type has it's own UIimage and set up.
+- After clicking the button, the user segues into gameplay mode
+- The gameplay mode displays the text to type and a keyboard
+- The user can input keyboard input
+- If the keyboard input matches the character, the cell turns green, if not it turns red
+- prospectively if the player deletes, the cell would turn clear (easy bug fix), also there's a 1 minute timer for the short game. Implementation would be easy to change for longer games.
+
+The main challenge that I faced was configuring the keyboard collection view and the word/text collection views. I was not familiar with collection views before, and I had to spend a lot of time studying them to get basic functionality. I also borrowed a lot of code from the Wordle project assigned to us earlier this semester, so I had to take time to study the code to see what I needed and what I didn't need. This was a fun project and I plan on continuing to develop it in the future.
