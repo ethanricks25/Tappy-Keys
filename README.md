@@ -122,3 +122,8 @@ Week 2
 - prospectively if the player deletes, the cell would turn clear (easy bug fix), also there's a 1 minute timer for the short game. Implementation would be easy to change for longer games.
 
 The main challenge that I faced was configuring the keyboard collection view and the word/text collection views. I was not familiar with collection views before, and I had to spend a lot of time studying them to get basic functionality. I also borrowed a lot of code from the Wordle project assigned to us earlier this semester, so I had to take time to study the code to see what I needed and what I didn't need. This was a fun project and I plan on continuing to develop it in the future.
+
+Week 3
+- Added GameOver Popup
+- When 1 minute Timer expires, the GameOver Popup appears showing the WPM and the accuracy
+- Also fixed the bug from last week
