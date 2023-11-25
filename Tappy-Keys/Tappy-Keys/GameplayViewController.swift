@@ -57,7 +57,7 @@ class GameplayViewController: UIViewController {
             if let destinationVC = segue.destination as? GameOverViewController {
                 
                 destinationVC.wpm = wordsController.findWPM()
-                
+                destinationVC.accuracy = wordsController.findAccuracy()
                 
             }
         }

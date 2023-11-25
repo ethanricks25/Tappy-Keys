@@ -37,6 +37,8 @@ class WordsController: NSObject,
         self.paragraph = ParagraphGenerator.generateParagraph(string: gameType).map { innerArray in
           innerArray.map { String( $0) }
       }
+      self.currWord = []
+      self.listOfWords = []
       super.init()
       collectionView.delegate = self
       collectionView.dataSource = self
@@ -45,18 +47,18 @@ class WordsController: NSObject,
     func findWPM()-> Int{
         return listOfWords!.count
     }
-/*
+
     func findAccuracy()->Float{
         
-        for word in listOfWords! {
-            
-        }
+        let correctWordCount = listOfWords?.filter { entries in
+            entries.allSatisfy { $0.correct }
+        }.count ?? 0
         
         let totalWords = findWPM()
         
-        return Float(listOfCorrectWords.count) / Float(totalWords)
+        return Float(correctWordCount) / Float(totalWords) * 100
     }
-*/
+
     
     func enter(_ string: String) {
         if placeOnScreen < numRows * numItemsPerRow {
@@ -69,6 +71,7 @@ class WordsController: NSObject,
         }
       
     }
+    
     func check (currentCell: LetterCell, keyboardChar: String){
         let correctEntry = currentCell.letterLabel.text?.uppercased() == keyboardChar
         let currEntry = Entry(letter: keyboardChar, correct: correctEntry)
@@ -86,9 +89,9 @@ class WordsController: NSObject,
     
     func deleteLastCharacter() {
       guard placeOnScreen >= 0 else { return }
-      let cell = collectionView.cellForItem(at: IndexPath(item: placeOnScreen - 1, section: 0)) as! LetterCell
       placeOnScreen -= 1
       placeInPar -= 1
+      let cell = collectionView.cellForItem(at: IndexPath(item: placeOnScreen % numItemsPerRow, section: placeOnScreen / numItemsPerRow)) as! LetterCell
       cell.set(style: LetterCellStyle.initial)
       if cell.letterLabel.text == " "{
           self.currWord = self.listOfWords?.popLast()

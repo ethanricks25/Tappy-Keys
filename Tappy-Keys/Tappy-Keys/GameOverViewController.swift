@@ -15,7 +15,9 @@ class GameOverViewController: UIViewController {
     var accuracy: Float?
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        wpmLabel.text = "WPM: \(wpm ?? 0)"
+        accuracyLabel.text = "Accuracy: \(accuracy ?? 0)%"
         // Do any additional setup after loading the view.
     }
     
